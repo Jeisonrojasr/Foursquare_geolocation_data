@@ -33,6 +33,6 @@ También separé la adquisición de datos del procesamiento, de forma que los da
 
 ## Resultados
 
-La automatización convirtió un proceso manual y repetitivo en un pipeline reproducible de adquisición y procesamiento de datos. Permitió ejecutar consultas sobre decenas de zonas geográficas de forma automática y procesar cientos de solicitudes sin exceder nunca la cuota disponible de Foursquare. Además de reducir el riesgo de errores manuales, dejó los datos estructurados y listos para posteriores análisis científicos.
+La automatización convirtió un proceso manual y repetitivo en un pipeline reproducible de adquisición y procesamiento de datos. El impacto más notable fue la optimización del tiempo, ya que el esfuerzo para recolectar, verificar y estructurar toda la información se redujo de meses de trabajo manual a apenas unas semanas. Este permitió ejecutar consultas sobre decenas de zonas geográficas de forma automática y procesar cientos de solicitudes sin exceder nunca la cuota disponible de Foursquare. Además de reducir el riesgo de errores manuales, dejó los datos estructurados y listos para posteriores análisis científicos.
 
 Desde una perspectiva empresarial, el proyecto es directamente trasladable a procesos de integración con servicios externos. Aplica para cualquier entorno en el que sea necesario consumir una API, procesar archivos JSON, orquestar ejecuciones controlando límites de uso y transformar la información para alimentar otros sistemas de análisis.
