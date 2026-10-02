@@ -14,14 +14,6 @@ Utilicé Python para la automatización, integrando librerías como requests par
 
 El flujo incluye:
 
-  -Autenticación segura mediante API key y procesamiento de respuestas JSON.
-  -Automatización de consultas iterativas para múltiples zonas geográficas, generando automáticamente nombres de archivos basados en la fecha y ubicación.
-  -Un contador de llamadas para controlar estrictamente el consumo de la API, apoyado por un registro de cada solicitud realizada y la capacidad de reanudar el proceso en caso de interrupción.
-  -Separé intencionalmente la fase de adquisición de datos de la de procesamiento. De esta forma, los datos originales pueden reutilizarse sin necesidad de volver a consultar la API.
-
-
-El flujo incluye:
-
 - Consultas HTTP a la API REST de Foursquare, autenticación mediante API key y procesamiento de respuestas JSON.
 - Automatización de consultas para múltiples zonas geográficas y generación automática de nombres de archivos con fecha y ubicación.
 - Contador de llamadas para controlar el consumo de la API y registro de cada solicitud realizada.
